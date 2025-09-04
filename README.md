@@ -1,2 +1,2 @@
-# MSP-DualSensor
-Deep Learning-Driven Materials Surface Potential Prediction using Dual-reference Triboelectric Sensor
+# DL-DualTENGSensor-SP
+Deep Learning-based Dual-reference Triboelectric Sensor for Direct Surface Potential Prediction
