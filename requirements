@@ -1,0 +1,12 @@
+###### 
+Deep Learning-based Dual-reference Triboelectric Sensor for Direct Surface Potential Prediction 
+#######
+
+###### Software with Version Specifiers ######
+Matlab R2024b Update 5
+Deep learning toolbox 
+
+###### Hardware ######
+ Intel Xeon Platinum 8270 processor
+NVIDIA RTX A6000 GPU.
+
