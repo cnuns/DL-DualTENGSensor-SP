@@ -1,12 +1,12 @@
 # DL-DualTENGSensor-SP
 Deep Learning-based Dual-reference Triboelectric Sensor for Direct Surface Potential Prediction
 
-This repository shows how to load the data and train the model associated with the paper “Deep Learning-based Dual-reference Triboelectric Sensor for Direct Surface Potential Prediction”. This code was initially performed in MATLAB, but it is also possible to access information in Python. In the MATLAB files (.mat), this data is stored in a cell according to the periodic and repetitive experiments. The raw data is also available in Excel format (.csv). 
-
+This repository shows how to load the data and train the model associated with the paper “Deep Learning-based Dual-reference Triboelectric Sensor for Direct Surface Potential Prediction”. This code was initially performed in MATLAB, but it is also possible to access information in Python. The data is available at https://drive.google.com/drive/folders/10CZ9QND9NbtZ-kMQB6HvOF95bu9Xwgob?usp=sharing.
 
 1. The SP.csv file includes the list of materials, index numbers, average surface potential values, and standard deviation. 
 
-2. The data associated with dataCyc_h2050.mat is as follows. 
+2. In the MATLAB files (.mat), this data is stored in a cell according to the periodic and repetitive nature of the experiments. The raw data is also available in Excel format (.csv).
+   The data associated with dataCyc_h2050.mat is as follows. 
 - TrainSet: It includes the material index used to train the model, namely, PTFE, Kapton, PET, PMMA, Paper, Glass, and Nylon.
 
 - TestSet: It includes the material index used to test the model, namely,  PVDF, Al, and TPU
