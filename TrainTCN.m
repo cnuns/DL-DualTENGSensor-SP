@@ -94,14 +94,8 @@ options = trainingOptions('adam', ...
 
 %% Test TCN model within trainSet
 miniBatchSizeTest = 128*4;
-rmse = testnet(net,XTest,TTest,"rmse", MiniBatchSize = miniBatchSizeTest, InputDataFormats="CTB"); % here
-YPred = minibatchpredict(net,XTest, MiniBatchSize = miniBatchSizeTest, InputDataFormats="CTB"); % here
-rmse
-
-%%
-%pathtosave = ['\trainedmodel\'];
-%save([pwd pathtosave savefilename], 'rmse', 'net', 'miniBatchSizeTest', 'XTrain', 'TTrain', 'XTest', 'TTest', 'YPred', 'XValidation', 'TValidation', 'info', 'Ymax', 'Ymin');
-
+rmse = testnet(net,XTest,TTest,"rmse", MiniBatchSize = miniBatchSizeTest, InputDataFormats="CTB"); 
+YPred = minibatchpredict(net,XTest, MiniBatchSize = miniBatchSizeTest, InputDataFormats="CTB"); 
 
 
 
